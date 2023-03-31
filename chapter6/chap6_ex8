@@ -1,0 +1,12 @@
+print("{0:>10s}".format("Apple"))
+
+print("{0:<10s}".format("Apple"))
+
+
+b='banana'
+
+print("{0:<10s}, {1:.2f}".format(b,752.452222))
+
+
+print("product:{name:<10s},price per unit:{price:>10.3f}".format(name='kiwi',price=223.2223))
+
